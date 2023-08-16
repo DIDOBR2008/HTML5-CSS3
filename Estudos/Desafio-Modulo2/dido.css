@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "DIDO";
+    src: url(Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+header{
+    font-family: "DIDO";
+    background-color: rgb(0, 243, 0);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
