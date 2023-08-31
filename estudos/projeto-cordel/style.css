@@ -1,0 +1,96 @@
+@charset  "UTF8";
+
+@font-face {
+    font-family: 'titulo';
+    src: url(pacote-d012/Passion_One/PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family: 'paragrafos';
+    src: url(pacote-d012/Sriracha/Sriracha-Regular.ttf);
+}
+html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-family: 'titulo';
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 10vh;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header a,footer a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'paragrafos';
+    font-size: 3.5vw;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgba(2, 0, 0, 0.473);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.377);
+    text-shadow: 1px 1px 0px;
+    
+}
+
+section#img01{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+section#img02{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+   
+
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+a:hover{
+    text-decoration: underline;
+}
